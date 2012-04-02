@@ -1,4 +1,4 @@
-[返回目录](GitCafe/Help/blob/master/README.md#code)
+[返回目录](README.md#code)
 
 # 安装和设置 Git
 
@@ -32,6 +32,6 @@
 
 * 备份旧的 SSH key
 
-[返回目录](GitCafe/Help/blob/master/README.md#code)
+[返回目录](README.md#code)
 
 	
