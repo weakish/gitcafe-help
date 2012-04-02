@@ -18,4 +18,3 @@
 
 2-2-Git-tips.md: Git Tips
 
-## 3.其它
