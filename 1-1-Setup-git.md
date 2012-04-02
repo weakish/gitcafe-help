@@ -1,3 +1,5 @@
+[返回目录](GitCafe/Help/blob/master/README.md#code)
+
 # 安装和设置 Git
 
 ### 1.下载及安装 Git  
@@ -29,4 +31,7 @@
 	如果该目录存在，那么就表示之前已生成过 SSH key。
 
 * 备份旧的 SSH key
+
+[返回目录](GitCafe/Help/blob/master/README.md#code)
+
 	
