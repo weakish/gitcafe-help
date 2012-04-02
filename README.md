@@ -1,8 +1,6 @@
-# GitCafe 帮助文档说明
-
 注：本文档使用 Markdown 语法编写，关于 Markdown 语法规则见 [Markdown 语法简体中文版](/riku/Markdown-Syntax-CN/blob/master/syntax.md#code)。
 
-# 文档结构
+# GitCafe 帮助文档目录
 
 ## 1.新手入门
 
