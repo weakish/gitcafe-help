@@ -6,15 +6,15 @@
 
 ## 1.新手入门
 
-1-1-Setup-git.md: [安装和设置 Git](./Help/blob/master/1-1-Setup-git.md#code)
+1-1-Setup-git.md: [安装和设置 Git](/GitCafe/Help/blob/master/1-1-Setup-git.md#code)
 
-1-2-Create-project.md: [创建和管理项目](./Help/blob/master/1-2-Create-project.md#code)
+1-2-Create-project.md: [创建和管理项目](/GitCafe/Help/blob/master/1-2-Create-project.md#code)
 
-1-3-FAQ.md: [FAQ-常见问答](1-3-FAQ.md#code)
+1-3-FAQ.md: [FAQ-常见问答](/GitCafe/Help/blob/master/1-3-FAQ.md#code)
 
 ## 2.Git 相关
 
-2-1-Beginning-git.md: [Git 入门](2-1-Beginning-git.md#code)
+2-1-Beginning-git.md: [Git 入门](/GitCafe/Help/blob/master/2-1-Beginning-git.md#code)
 
-2-2-Git-tips.md: [Git Tips](2-2-Git-tips.md#code)
+2-2-Git-tips.md: [Git Tips](/GitCafe/Help/blob/master/2-2-Git-tips.md#code)
 
