@@ -21,8 +21,7 @@
 
 ### 2.生成及上传 SSH key
 
-在你的电脑与 GitCafe 服务器之间保持通信时，我们使用 SSH key 认证方式来保证通信安全。
-所以在使用 GitCafe 前你必须先建创自已的 SSH key。
+在你的电脑与 GitCafe 服务器之间保持通信时，我们使用 SSH key 认证方式来保证通信安全。所以在使用 GitCafe 前你必须先建创自已的 SSH key。
 
 1. 检查是否已存在 ssh key 
 
