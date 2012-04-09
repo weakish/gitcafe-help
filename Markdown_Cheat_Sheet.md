@@ -46,6 +46,14 @@
     > 第一行引用文字
     > 第二行引用文字
 
+#### 水平线
+
+    ***
+
 #### 代码
 
     `<hello world>`
+
+***
+
+关于 Markdown 的详细语法说明见[这里](http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md#code)
