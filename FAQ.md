@@ -1,12 +1,3 @@
 # FAQ-常见问答
-1.什么是 Git?
-
-Git 是一个由 Linus Tovalds 为了更好地管理linux内核开发而创立的分布式版本控制／软件配置管理软件。
-
-2.
-
-3.
-
-4.
-
-5.
+* 如何获取GitCafe注册邀请码?
+发送邮件至 support[a.t]gitcafe.com 申请即可有机会获取GitCafe邀请码

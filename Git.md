@@ -63,5 +63,3 @@ Git 是由 Linux 之父 Linus Tovalds 为了更好地管理linux内核开发而�
     git push
   
   [参考]：[ProGit-分支的衍合](http://progit.org/book/zh/ch3-6.html)
-
-### 3.
