@@ -6,7 +6,7 @@ GitCafe 是以 [Git][Git] 为核心的服务，所以在使用 GitCafe 服务之
 
 根据你当前使用的系统平台，请到 Git 官方网站下载相应的客户端软件。
 
-[Mac OSX][Mac]  / [Windows][Win] / [Linux][Linux] / [Solaris][Solaris]
+快速下载链接： [Mac OSX][Mac]  / [Windows][Win] / [Linux][Linux] / [Solaris][Solaris]
 
 [Git]:http://git-scm.com/download/
 [Mac]:http://git-scm.com/download/mac
@@ -20,7 +20,15 @@ GitCafe 是以 [Git][Git] 为核心的服务，所以在使用 GitCafe 服务之
 
 在你的电脑与 GitCafe 服务器之间保持通信时，我们使用 SSH key 认证方式来保证通信安全。所以在使用 GitCafe 前你必须先建创自已的 SSH key。
 
-1). 
+1). 进入 SSH 目录
+
+'cd ~/.ssh'
+
+2). 生成新的 SSH 秘钥
+
+`ssh-keygen -t rsa -C "your_email@youremail.com"`
+
+3). 按提示操作，并记得输入 passphrase
 
 ### 3.添加 SSH 公钥到 GitCafe
 
