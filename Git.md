@@ -1,10 +1,10 @@
 # 安装和设置 Git
 
-GitCafe 是以 Git 
+GitCafe 是以 [Git][Git] 为核心的服务，所以在使用 GitCafe 服务之前，你必须学会使用 Git 工具，请通过以下步骤来操作。
 
 ### 1.下载及安装 Git  
 
-根据你当前使用的系统平台，请到 [Git 官方网站][Git]下载相应的客户端软件。
+根据你当前使用的系统平台，请到 Git 官方网站下载相应的客户端软件。
 
 [Mac OSX][Mac]  / [Windows][Win] / [Linux][Linux] / [Solaris][Solaris]
 
@@ -14,7 +14,7 @@ GitCafe 是以 Git
 [Linux]:http://git-scm.com/download/linux
 [Solaris]:http://git-scm.com/download/linux
 
-'如果你对 Git 完全不熟悉，建议你先阅读 《[Pro Git 中文版](http://progit.org/book/zh/)》一书'
+>如果你对 Git 完全不熟悉，建议你先阅读 《[Pro Git 中文版](http://progit.org/book/zh/)》一书。
 
 ### 2.创建 SSH 秘钥
 
@@ -41,7 +41,9 @@ GitCafe 是以 Git
 如果是第一次连接的话，会出现以下警告，不用担心，输入 yes 按回车就可以了。
 
 >The authenticity of host 'gitcafe.com (50.116.2.223)' can't be established.
+
 >#RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+
 >#Are you sure you want to continue connecting (yes/no)?
 
 最后，如果连接成功的话，会出现以下信息。
