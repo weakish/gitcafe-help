@@ -22,7 +22,7 @@ GitCafe 是以 [Git][Git] 为核心的服务，所以在使用 GitCafe 服务之
 
 1). 进入 SSH 目录
 
-'cd ~/.ssh'
+`cd ~/.ssh`
 
 2). 生成新的 SSH 秘钥
 
