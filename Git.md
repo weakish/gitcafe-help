@@ -41,13 +41,13 @@ GitCafe 是以 Git
 如果是第一次连接的话，会出现以下警告，不用担心，输入 yes 按回车就可以了。
 
 >The authenticity of host 'gitcafe.com (50.116.2.223)' can't be established.
-># RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
-># Are you sure you want to continue connecting (yes/no)?
+>#RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+>#Are you sure you want to continue connecting (yes/no)?
 
 最后，如果连接成功的话，会出现以下信息。
 
-`Hi username! You've successfully authenticated, but GitCafe does not provide shell a
-ccess.`
+>Hi username! You've successfully authenticated, but GitCafe does not provide shell a
+ccess.
 
 ### 5.完成
 
