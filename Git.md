@@ -2,7 +2,7 @@
 
 GitCafe 是以版本控制软件 [Git][Git] 为核心的网络服务，所以在使用 GitCafe 服务之前，你必须了解及掌握如何使用 Git 工具。通过以下步骤你就可以学会如何安装和设置 Git 软件，并能顺利连接 GitCafe 服务器。
 
->如果你对 Git 完全不熟悉，想全面学习 Git 知识的话，建议你阅读 《[Pro Git 中文版](http://progit.org/book/zh/)》一书。
+>如果你对 Git 完全不熟悉，想全面学习 Git 知识的话，建议阅读 《[Pro Git 中文版](http://progit.org/book/zh/)》一书。
 
 ### 1.下载及安装 Git  
 
@@ -10,13 +10,16 @@ GitCafe 是以版本控制软件 [Git][Git] 为核心的网络服务，所以在
 
 快速下载链接： [Mac OSX][Mac]  / [Windows][Win] / [Linux][Linux]
 
-下载完后
+下载并安装完成后，通常在 Mac OSX 及 Linux 平台下我们用终端工具来使用 Git ，而在 Windows 平台下用 Git Bash 工具。
+
+![Git Bash 工具](http://gitcafe.com/GitCafe/Help/raw/master/Images/git_bash.png)
 
 [Git]:http://git-scm.com
 [GitDownload]:http://git-scm.com/download/
 [Mac]:http://git-scm.com/download/mac
 [Win]:http://git-scm.com/download/win
 [Linux]:http://git-scm.com/download/linux
+
 
 ### 2.创建 SSH 秘钥
 
@@ -26,11 +29,23 @@ GitCafe 是以版本控制软件 [Git][Git] 为核心的网络服务，所以在
 
 `cd ~/.ssh`
 
-2). 生成新的 SSH 秘钥
+2). 生成新的 SSH 秘钥 (记得把以下命令中的 your_email@youremail.com 改为你的 Email 地址 )
 
 `ssh-keygen -t rsa -C "your_email@youremail.com"`
 
-3). 按提示操作，并记得输入 passphrase
+3). 生成过程中会出现以下信息，按屏幕提示操作，并记得输入 passphrase
+
+    $ ssh-keygen -t rsa -C "your_email@youremail.com"
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/c/Users/username/.ssh/id_rsa):
+    Enter passphrase (empty for no passphrase):
+    Enter same passphrase again:
+    Your identification has been saved in /c/Users/username/.ssh/id_rsa.
+    Your public key has been saved in /c/Users/username/.ssh/id_rsa.pub.
+    The key fingerprint is:
+    15:81:d2:7a:c6:6c:0f:ec:b0:b6:d4:18:b8:d1:41:48 your_email@youremail.com
+
+4). SSH 私钥生成结束后，你可以在用户目录(~/.ssh/) 下看到私钥文件 `id_rsa` 和公钥文件 `id_rsa.pub` 这两个文件，记住千万不要把私钥文件 `id_rsa` 透露给别人。
 
 ### 3.添加 SSH 公钥到 GitCafe
 
@@ -54,7 +69,7 @@ GitCafe 是以版本控制软件 [Git][Git] 为核心的网络服务，所以在
 
 >The authenticity of host 'gitcafe.com (50.116.2.223)' can't be established.
 
->#RSA key fingerprint is bd:4c:0d:e9:ad:ce:9b:3b:99:9c:8a:d8:d4:07:93:40.
+>#RSA key fingerprint is 84:9e:c9:8e:7f:36:28:08:7e:13:bf:43:12:74:11:4e.
 
 >#Are you sure you want to continue connecting (yes/no)?
 
@@ -65,4 +80,6 @@ ccess.
 
 ### 5.完成
 
-测试通过后，你就可以到 GitCafe 上创建 Git 项目并上传代码了。
+测试通过后，你就可以到 GitCafe 上[创建 Git 项目](New_Project)并上传代码了。
+
+[New_Project]:http://gitcafe.com/projects/new
