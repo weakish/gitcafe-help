@@ -38,7 +38,7 @@ GitCafe 是以版本控制软件 [Git][Git] 为核心的网络服务，所以在
 
 2). 进入 GitCafe -->[账户设置][3-1]-->[SSH 公钥管理][3-2]设置项，点击[添加新公钥][3-3] 按钮，在 Title 文本框中输入任意字符，在 Key 文本框粘贴刚才复制的公钥字符串，按保存按钮完成操作。
 
-![添加公钥](images/add_ssh_key.png)
+![添加公钥](http://gitcafe.com/GitCafe/Help/raw/master/Images/add_ssh_key.png)
 
 [3-1]:http://gitcafe.com/account
 [3-2]:http://gitcafe.com/account/public_keys
