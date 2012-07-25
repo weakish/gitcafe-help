@@ -77,6 +77,6 @@ GitCafe 是以版本控制软件 [Git][Git] 为核心的网络服务，所以在
 
 ### 5.完成
 
-测试通过后，你就可以到 GitCafe 上[创建 Git 项目](New_Project)并上传代码了。
+测试通过后，你就可以到 GitCafe 上[创建 Git 项目][New_Project]并上传代码了。
 
 [New_Project]:http://gitcafe.com/projects/new
