@@ -1,9 +1,11 @@
 # GitCafe 帮助文档
 
-* FAQ.md: GitCafe使用FAQ文档
+* Setup_Git.md: 安装和设置 Git
 
-* Git.md: git使用基础与技巧
+* FAQ.md: GitCafe 使用 FAQ 文档
 
-* GitCafe.md: 学会使用GitCafe
+* Git.md: Git 使用基础与技巧
 
-* Markdown.md: Markdown语法速查表
+* GitCafe.md: 学会使用 GitCafe
+
+* Markdown.md: Markdown 语法速查表

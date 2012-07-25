@@ -73,8 +73,7 @@ GitCafe 是以版本控制软件 [Git][Git] 为核心的网络服务，所以在
 
 最后，如果连接成功的话，会出现以下信息。
 
-    Hi username! You've successfully authenticated, but GitCafe does not provide shell a
-ccess.
+    Hi username! You've successfully authenticated, but GitCafe does not provide shell access.
 
 ### 5.完成
 
