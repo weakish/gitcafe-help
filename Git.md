@@ -24,6 +24,7 @@ Git 是由 Linux 之父 Linus Tovalds 为了更好地管理linux内核开发而�
 * 在 Fork 的代码库中添加上游代码库的 remote 源，（操作一次就可以，以后不必每次添加）
 
     `git remote add upstream git://gitcafe.com/username/upstream` 
+    
     #upstream 表示上游代码库名称
   
 * 本地修改和提交 (commit)
@@ -32,6 +33,7 @@ Git 是由 Linux 之父 Linus Tovalds 为了更好地管理linux内核开发而�
   
     `git remote update upstream`
     `git rebase upstream/master`  
+    
     #如果不是 master 分支，请把 master 改为相应的分支名，
     同时在 rebase 前用 git checkout 命令切换到相应的本地分支 
 
