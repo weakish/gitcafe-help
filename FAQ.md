@@ -1,4 +1,8 @@
 # FAQ-常见问答
-* 如何获取GitCafe注册邀请码?
+1. 如何获取GitCafe注册邀请码?
 
-发送邮件至 support[a.t]gitcafe.com 申请即可有机会获取GitCafe邀请码
+ 发送邮件至 support[a.t]gitcafe.com 申请即可有机会获取GitCafe邀请码
+
+2. 免费用户如何创建私有项目？
+
+ 目前 GitCafe 不充许免费用户创建私有项目，如果你想创建私有项目，必须先充值以便保证你的帐户中有一定量的极特币余额，或者邀请朋友加入 GitCafe 来免费获取极特币。
